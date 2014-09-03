@@ -1,0 +1,33 @@
+/*PHONE*/
+@media screen and (min-width: 480px){
+  /******************
+  3 x 5 = 15 | n of columns x combined margin
+  100% - 15% = 85% | full width - answer
+  85 / 3 = 28.333333 | answer divided by n of columns
+  ******************/
+  header{
+    border-bottom: 5px solid #15127A;
+    padding: 5px 0 20px 0;
+  }
+  
+}
+
+/*TABLET*/
+@media screen and (min-width: 660px){
+  /******************
+  HEADER
+  ******************/
+  header{
+    border-bottom: 5px solid #15127A;
+    padding: 5px 0 20px 0;
+  }
+
+  h1{
+    font-size: 2.5em;
+  }
+  
+  h2{
+    font-size: .825em;
+    margin-bottom: 20px;
+  }
+}
